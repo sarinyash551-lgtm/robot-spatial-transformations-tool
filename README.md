@@ -1,50 +1,136 @@
-# Robot Spatial Transformations Tool
+# 🤖 Robot Spatial Transformations Tool
 
-## Overview
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Robotics](https://img.shields.io/badge/Robotics-Kinematics-green)
+![Visualization](https://img.shields.io/badge/Visualization-Matplotlib-orange)
+![License](https://img.shields.io/badge/License-MIT-success)
 
-This project demonstrates fundamental robotics concepts related to spatial descriptions and transformations. The implementation includes homogeneous transformation matrices, coordinate frame transformations, inverse transformations, Euler angle representations, and arbitrary-axis rotations.
+An interactive Python application for visualizing and understanding **2D spatial transformations** commonly used in robotics, computer graphics, and engineering mathematics.
 
-The project was developed as part of a Robotics course at Woosong University based on concepts from John J. Craig's *Introduction to Robotics: Mechanics and Control*.
+---
 
-## Features
+# 📌 Overview
 
-* Homogeneous Transformation Matrix Construction
-* Position and Orientation Transformations
-* Inverse Transformation Computation
-* X-Y-Z Fixed-Angle Rotations
-* Inverse Fixed-Angle Recovery
-* Arbitrary Axis Rotation
-* Rotation About an Arbitrary Axis with Offset Origin
-* Interactive Robot Arm Visualization
-* Coordinate Frame Visualization
+This project demonstrates the mathematical concepts behind spatial transformations by allowing users to apply different geometric operations to objects and observe the results visually.
 
-## Technologies Used
+The application is intended for students, robotics enthusiasts, and engineers who want to better understand transformation matrices and coordinate systems.
 
-* Python
-* NumPy
-* Matplotlib
-* Robotics Kinematics
-* 3D Visualization
+---
 
-## Repository Contents
+# ✨ Features
 
-* `spatial_transformations_tool.ipynb` – Main implementation notebook
-* `demo.mp4` – Demonstration video
-* `Report.pdf` – Project report
-* `Presentation.pptx` – Project presentation
+- 🔄 Translation
+- 🔁 Rotation
+- 📏 Scaling
+- ↔ Reflection
+- 📐 Shearing
+- 📊 Interactive visualization
+- ⚡ Real-time transformation updates
 
-## Learning Outcomes
+---
 
-* Understanding coordinate frame transformations
-* Rotation matrix representations
-* Spatial relationships in robotic systems
-* Visualization of robotic motion and transformations
+# 🛠 Technologies Used
 
-## Author
+- Python
+- NumPy
+- Matplotlib
+- Tkinter *(replace if using another GUI library)*
 
-Yash Sarin
+---
 
-Department of Artificial Intelligence
+# 📂 Project Structure
 
-Woosong University
+```text
+robot-spatial-transformations-tool/
 
+├── spatial_transformations_tool.py
+├── demo.mp4
+├── README.md
+├── LICENSE
+├── .gitignore
+└── .gitattributes
+```
+
+---
+
+# 🎥 Demo
+
+A demonstration video of the application is included in this repository.
+
+**demo.mp4**
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/sarinyash551-lgtm/robot-spatial-transformations-tool.git
+```
+
+Navigate into the project
+
+```bash
+cd robot-spatial-transformations-tool
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run
+
+```bash
+python spatial_transformations_tool.py
+```
+
+---
+
+# 📖 Concepts Covered
+
+- Homogeneous Coordinates
+- Transformation Matrices
+- Coordinate Frames
+- Rotation Matrix
+- Translation Matrix
+- Scaling Matrix
+- Reflection Matrix
+- Shearing Matrix
+
+---
+
+# 🎯 Applications
+
+- Robotics
+- Computer Graphics
+- CAD Systems
+- Computer Vision
+- Engineering Education
+
+---
+
+# 🚀 Future Improvements
+
+- 3D Transformations
+- Animation Support
+- Transformation Composition
+- Matrix Visualization
+- Export Results
+
+---
+
+# 👨‍💻 Author
+
+**Yash Sarin**
+
+GitHub:
+https://github.com/sarinyash551-lgtm
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
