@@ -2,39 +2,43 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Robotics](https://img.shields.io/badge/Robotics-Kinematics-green)
-![Visualization](https://img.shields.io/badge/Visualization-Matplotlib-orange)
+![Linear Algebra](https://img.shields.io/badge/Linear%20Algebra-Matrices-orange)
 ![License](https://img.shields.io/badge/License-MIT-success)
 
-An interactive Python application for visualizing and understanding **2D spatial transformations** commonly used in robotics, computer graphics, and engineering mathematics.
+A pure Python implementation of spatial transformations and homogeneous transformation matrices used in robotics, implemented entirely **without external numerical libraries such as NumPy**.
 
 ---
 
 # 📌 Overview
 
-This project demonstrates the mathematical concepts behind spatial transformations by allowing users to apply different geometric operations to objects and observe the results visually.
+This project demonstrates the mathematical foundations of spatial transformations used in robotics through manual implementation of matrix operations.
 
-The application is intended for students, robotics enthusiasts, and engineers who want to better understand transformation matrices and coordinate systems.
+Instead of relying on external libraries, every operation—including matrix multiplication, transpose, rotation matrices, and homogeneous transformation matrices—is implemented from scratch using only Python's standard library.
+
+The project is designed for students, robotics enthusiasts, and engineers who want to understand how robot coordinate transformations work internally.
 
 ---
 
 # ✨ Features
 
-- 🔄 Translation
-- 🔁 Rotation
-- 📏 Scaling
-- ↔ Reflection
-- 📐 Shearing
-- 📊 Interactive visualization
-- ⚡ Real-time transformation updates
+- Manual matrix multiplication implementation
+- Matrix transpose implementation
+- Degree-to-radian conversion
+- Rotation matrices about X, Y, and Z axes
+- Homogeneous transformation matrix construction
+- Pure Python implementation (No NumPy)
+- Educational robotics mathematics
+- Well-documented functions
 
 ---
 
 # 🛠 Technologies Used
 
 - Python
-- NumPy
-- Matplotlib
-- Tkinter *(replace if using another GUI library)*
+- Python Standard Library (`math`)
+- Matrix Algebra
+- Robotics Mathematics
+- Homogeneous Transformations
 
 ---
 
@@ -55,9 +59,11 @@ robot-spatial-transformations-tool/
 
 # 🎥 Demo
 
-A demonstration video of the application is included in this repository.
+A demonstration video of the implementation is included in this repository.
 
-**demo.mp4**
+```
+demo.mp4
+```
 
 ---
 
@@ -69,19 +75,13 @@ Clone the repository
 git clone https://github.com/sarinyash551-lgtm/robot-spatial-transformations-tool.git
 ```
 
-Navigate into the project
+Move into the project folder
 
 ```bash
 cd robot-spatial-transformations-tool
 ```
 
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run
+Run the Python script
 
 ```bash
 python spatial_transformations_tool.py
@@ -89,36 +89,58 @@ python spatial_transformations_tool.py
 
 ---
 
-# 📖 Concepts Covered
+# 📚 Concepts Covered
 
-- Homogeneous Coordinates
-- Transformation Matrices
+- Matrix Multiplication
+- Matrix Transpose
+- Rotation Matrices
 - Coordinate Frames
-- Rotation Matrix
-- Translation Matrix
-- Scaling Matrix
-- Reflection Matrix
-- Shearing Matrix
+- Coordinate Transformations
+- Euler Rotations
+- Homogeneous Coordinates
+- Homogeneous Transformation Matrices
+- 3×3 Rotation Matrices
+- 4×4 Transformation Matrices
+
+---
+
+# 🔬 Mathematical Operations Implemented
+
+- Degree → Radian Conversion
+- Matrix Multiplication
+- Matrix Transpose
+- Rotation about X-axis
+- Rotation about Y-axis
+- Rotation about Z-axis
+- Homogeneous Transformation Matrix Construction
+
+All mathematical operations are implemented manually without relying on external numerical libraries.
 
 ---
 
 # 🎯 Applications
 
+This project can be used for:
+
 - Robotics
+- Robot Kinematics
+- Engineering Mathematics
 - Computer Graphics
-- CAD Systems
 - Computer Vision
-- Engineering Education
+- Educational Demonstrations
+- Coordinate Frame Analysis
 
 ---
 
 # 🚀 Future Improvements
 
-- 3D Transformations
-- Animation Support
-- Transformation Composition
-- Matrix Visualization
-- Export Results
+- Forward Kinematics
+- Denavit–Hartenberg (DH) Parameters
+- Inverse Kinematics
+- 3D Visualization
+- Animation of Coordinate Frames
+- Interactive GUI
+- NumPy Optimized Version
 
 ---
 
